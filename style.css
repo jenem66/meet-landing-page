@@ -72,7 +72,6 @@ button {
   font-size: 1.6rem;
   line-height: 26px;
   font-weight: 900;
-  color: #fff;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
@@ -84,6 +83,12 @@ button {
   -o-transition: .2s ease-in-out;
   cursor: pointer;
 }
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 .btn-primary {
   background-color: var(--color-primary);
@@ -110,7 +115,6 @@ button {
 .btn-secondary .version {
   color: #D9B8FF;
 }
-
 
 img {
 max-width: 100%;
