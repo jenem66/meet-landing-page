@@ -384,7 +384,7 @@ footer .number-divider {
   
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
 
   h2 {
     font-size: 3.2rem;
@@ -409,10 +409,15 @@ footer .number-divider {
 
   .img-group {
     flex-wrap: wrap;
+    margin-bottom: 10rem;
   }
 
   .img-group img {
     max-width: 45%;
-    margin-right: 5%;
+    margin-right: 0;
+  }
+
+  .img-group img:nth-child(1n) {
+    margin: 0 5% 5% 0;
   }
 }
