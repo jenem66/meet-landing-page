@@ -281,9 +281,17 @@ footer {
   margin-top: 18.4rem;
   padding: 116px 0 104px;
   background-color: var(--color-primary);
+  background-image: url("images/desktop/image-footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover; */
+  background-size: cover;
 }
 
-footer::before {
+/* footer::before {
   content: "";
   display: block;
   position: absolute;
@@ -301,7 +309,7 @@ footer::before {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-}
+} */
 
 footer .container {
   display: flex;
