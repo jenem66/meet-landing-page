@@ -27,6 +27,8 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   text-align: center;
   color: var(--color-text);
+
+  background-color: var(--color-light);
   }
 
 h1 {
